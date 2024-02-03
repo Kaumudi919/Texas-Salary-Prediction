@@ -44,3 +44,13 @@ Columns:21
 •	Now, data is ready to passed to machine learning algorithm.<br>
 •	So, Splitting data into train and test.<br>
 
+#### Model building:
+##### Trained Machine learning models:
+Almost all the regression machine learning algorithm we have tried on the same dataset to get the maximum accuracy, which are:
+1.	Linear Regression<br>
+2.	KNeighbors Regressor<br>
+3.	DecisionTree Regressor
+4.	Random forest Regressor
+5.	Gradient boosting
+
+
