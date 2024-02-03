@@ -52,5 +52,15 @@ Almost all the regression machine learning algorithm we have tried on the same d
 3.	DecisionTree Regressor
 4.	Random forest Regressor
 5.	Gradient boosting
+   
+Applying regression algorithm R2_score is:
+| Model | R2_score | Adjusted_R2_score |
+|-------|--------- |-------------------|
+|inear Regression|0.91|0.91|
+|KNeighbors Regressor|-0.04|-0.04|
+|DecisionTree Regressor|0.82|0.81|
+|Random forest Regressor|0.88|0.87|
+|Gradient boosting|0.59|0.57|
+
 
 
