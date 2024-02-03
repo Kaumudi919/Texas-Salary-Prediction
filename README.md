@@ -28,4 +28,19 @@ This database has salary information for positions at all 113 agencies in the Te
 •	MULTIPLE FULL TIME JOBS: Individual works on one ore more full time jobs.<br>
 •	COMBINED MULTIPLE JOBS: The Combine Jobs feature allows you to merge two or more jobs from the same market view into a single job.<br>
 •	SUMMED ANNUAL SALARY: Total salary earned by an individual in a year including multiple full time jobs and combined multiple jobs.<br>
-•	HIDE FROM SEARCH: Gives you the option for your searches to be hidden with respect to organization.
+•	HIDE FROM SEARCH: Gives you the option for your searches to be hidden with respect to organization.<br>
+
+##### Dataset Size:
+Rows:149481
+Columns:21
+
+#### Data Preprocessing:
+•	Checking basic informations of the dataset.<br>
+•	Checking for the null values, duplicated, multiple_full_time_jobs, combined_multiple_jobs, summed_annual_salary, hide_from_search have more than 95% of them are null values, hence ignored them.<br>
+•	AGENCY is a code given to AGENCY_NAME so it does not make sense in prediction,so dropped it.<br>
+•	Also LAST_NAME, FIRST_NAME, MI, CLASS_CODE does not make sense in prediction hence those are removed.<br>
+•	There is one feature EMPLOY_DATE extract these feature and make difference with current date.<br>
+•	There are some categorical features like ETHNICITY, GENDER, STATUS, AGENCY_NAME and CLASS_TITLE all this feature encoded using encoding technique.<br>
+•	Now, data is ready to passed to machine learning algorithm.<br>
+•	So, Splitting data into train and test.<br>
+
